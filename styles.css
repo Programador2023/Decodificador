@@ -1,3 +1,4 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter+Tight:ital@0;1&display=swap");
 * {
   margin: 0;
   padding: 0;
@@ -5,6 +6,7 @@
 }
 
 body {
+  display: block;
   background-color: lightblue;
   display: flex;
   justify-content: center;
@@ -38,6 +40,9 @@ body {
 }
 
 .right {
+
+
+  
 }
 
 .img__navbar {
@@ -47,12 +52,34 @@ body {
 .wapper__aside {
   display: flex;
   flex-direction: column;
-  margin: 0 200px;
+  margin: 0 190px;
   background-color: white;
   width: 350px;
-  height: 644px;
+  height: 700px;
   border-radius: 32px;
 }
+.img__aside {
+  margin-top: 200px;
+  width: 300px;
+  height: 250px;
+}
+.texto__img {
+  font-family: Inter;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 29px;
+  letter-spacing: 0em;
+  text-align: center;
+  }
+  .paragrafo-img {
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: center;
+  }
+  
 .btn__criptografar {
   width: 300px;
   height: 40px;
@@ -63,7 +90,7 @@ body {
   line-height: 19.36px;
   color: #ffffff;
   border: none;
-  
+  font-family: "Inter Tight", sans-serif;
 }
 .btn__descriptografar {
   width: 300px;
@@ -74,24 +101,36 @@ body {
   color: #0a3871;
   text-align: center;
   line-height: 19.36px;
-
-
+  
 }
 
 .btns-p {
   display: flex;
   flex-direction: column;
   gap: 8px;
+  
 }
 
 .btns {
   display: flex;
   flex-direction: row;
   gap: 8px;
+  font-family: "Inter Tight", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+
+  
+
 }
 
 .p-btn {
+ font-weight: 400;
+  size: 12px;
+  line-height: 18px;
+  font-family: "Inter Tight", sans-serif;
+  height: 18px;
+  color: #495057;
+  opacity: 0.8;
+
 
 }
-
-
