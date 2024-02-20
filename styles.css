@@ -17,9 +17,9 @@ body {
 
 .screen {
   display: flex;
-  justify-content: space-between;
   padding: 16px;
   width: 60rem;
+  margin-bottom: 600px;
 }
 
 .left {
@@ -36,13 +36,17 @@ body {
     background: transparent;
     outline: 0;
     resize: none;
+    margin-bottom: 500px;
+    font-family: Inter;
+    font-size: 32px;
+    font-weight: 400;
+    line-height: 48px;
+    letter-spacing: 0em;
+    text-align: left;
   }
 }
 
 .right {
-
-
-  
 }
 
 .img__navbar {
@@ -57,6 +61,7 @@ body {
   width: 350px;
   height: 700px;
   border-radius: 32px;
+  gap: 16px;
 }
 .img__aside {
   margin-top: 200px;
@@ -64,22 +69,25 @@ body {
   height: 250px;
 }
 .texto__img {
-  font-family: Inter;
+  font-family: "Inter Tight", sans-serif;
   font-size: 24px;
   font-weight: 700;
   line-height: 29px;
-  letter-spacing: 0em;
   text-align: center;
-  }
-  .paragrafo-img {
-    font-family: Inter;
-    font-size: 16px;
-    font-weight: 400;
-    line-height: 24px;
-    letter-spacing: 0em;
-    text-align: center;
-  }
+  letter-spacing: 2px;
+  color:#343A40;
   
+}
+.paragrafo-img {
+  font-family: "Inter Tight", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 2px;
+  text-align: center;
+  
+}
+
 .btn__criptografar {
   width: 300px;
   height: 40px;
@@ -91,6 +99,11 @@ body {
   color: #ffffff;
   border: none;
   font-family: "Inter Tight", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 19px;
+  letter-spacing: 1px;
+  text-align: center;
 }
 .btn__descriptografar {
   width: 300px;
@@ -101,14 +114,19 @@ body {
   color: #0a3871;
   text-align: center;
   line-height: 19.36px;
-  
+  font-family: "Inter Tight", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 19px;
+  letter-spacing: 1px;
+  text-align: center;
 }
 
 .btns-p {
   display: flex;
   flex-direction: column;
   gap: 8px;
-  
+  letter-spacing: 1px;
 }
 
 .btns {
@@ -118,19 +136,20 @@ body {
   font-family: "Inter Tight", sans-serif;
   font-weight: 400;
   font-size: 16px;
-
-  
-
+  top: 885px;
 }
-
+.logo-group {
+  width: 16px;
+  height: 16px;
+  display: flex;
+  flex-direction: row;
+}
 .p-btn {
- font-weight: 400;
+  font-weight: 400;
   size: 12px;
   line-height: 18px;
   font-family: "Inter Tight", sans-serif;
   height: 18px;
   color: #495057;
   opacity: 0.8;
-
-
 }
