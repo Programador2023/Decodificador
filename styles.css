@@ -44,6 +44,10 @@ body {
     letter-spacing: 0em;
     text-align: left;
   }
+  .paragrafo-wapper {
+    display: flex;
+    padding: 10px 0;
+  }
 }
 
 .right {
@@ -75,8 +79,7 @@ body {
   line-height: 29px;
   text-align: center;
   letter-spacing: 2px;
-  color:#343A40;
-  
+  color: #343a40;
 }
 .paragrafo-img {
   font-family: "Inter Tight", sans-serif;
@@ -85,7 +88,6 @@ body {
   line-height: 24px;
   letter-spacing: 2px;
   text-align: center;
-  
 }
 
 .btn__criptografar {
@@ -141,8 +143,6 @@ body {
 .logo-group {
   width: 16px;
   height: 16px;
-  display: flex;
-  flex-direction: row;
 }
 .p-btn {
   font-weight: 400;
@@ -152,4 +152,5 @@ body {
   height: 18px;
   color: #495057;
   opacity: 0.8;
+  margin-left: 10px;
 }
