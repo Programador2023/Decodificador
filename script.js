@@ -7,6 +7,8 @@ const textArea = document.querySelector(".input-top");
 let inputValue;
 function encriptar() {
 wapperAside.innerHTML = inputValue
+
+let resultCripto = inputValue
 }
 
 function changeInput(event) {
